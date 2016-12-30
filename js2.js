@@ -1,7 +1,9 @@
-var a = 5
-    b = 4
-    value = (a*a) + (2 * a * b) - (b*b)
-    c = 0		
+var a = 5;
+    b = 4;
+    c = 0;    
+    value = (a*a) + (2 * a * b) - (b*b);
+
+console.log(value);
 
 function compare() {
 	if (value >= 0){
@@ -12,6 +14,8 @@ function compare() {
 	}
 }	
 
+compare()
+
 function compare2() {
 	if (value == c){
 		console.log("wartość równa zeru");	 
@@ -20,3 +24,5 @@ function compare2() {
 		console.log("wartość inna niż zero");	
 	}
 }
+
+compare2()
